@@ -24,8 +24,8 @@ confused, ask for help or talk to a friend.
 
 ======= SETUP =======
 • Launch the Learn IDE (use the Open IDE button)
-• create a new file called `my_list.txt`. Your file extension suggests that the content will be (plain-)
-text.
+• create a new file called `my_list.txt`.
+Your file extension suggests that the content will be (plain-) text.
 
 Think of a collection of things united by theme: Pok&eacute;mon, Old-school
 MC's, Prime Ministers of New Zealand, Magical Beasts and Where to Find Them,
@@ -36,9 +36,9 @@ Now write in a few entries in your file. Here's one from us (highly-influenced
 by English post-punk music).
 
 ```text
-Love Will Tear Us Apart
-Bela Lugosi's Dead
-A Forest
+Love Will Tear Us Apart     !!!
+Bela Lugosi's Dead          !!!
+A Forest                    !!!
 Nine While Nine
 Girlfriend In a Coma
 ```
