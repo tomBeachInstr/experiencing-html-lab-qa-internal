@@ -1,7 +1,6 @@
 # Experiencing HTML Lab
 
 ## Problem Statement
-
 How do we go about writing text that is designed for viewing on the web? How
 does that differ from the text that we might write into a plain text file?
 We're going to explore how these things differ in this lab. We're also going to
@@ -15,7 +14,6 @@ heart, this lab is here to help you get the big picture. If you find you're
 confused, ask for help or talk to a friend.
 
 ## Objectives
-
 1. Discern between text that is designated as _markup_ versus _content_
 2. Recognize the difference between source text and text as viewed in a browser
 3. Use HTML tags, without prior experience, to change the display of _content_
@@ -24,14 +22,16 @@ confused, ask for help or talk to a friend.
 
 ## Discern Between Text That Is Designated As _markup_ Versus _content_
 
-Launch the Learn IDE (use the Open IDE button) and create a new file called
-`my_list.txt`. Your file extension suggests that the content will be (plain-)
+======= SETUP =======
+• Launch the Learn IDE (use the Open IDE button)
+• create a new file called `my_list.txt`. Your file extension suggests that the content will be (plain-)
 text.
 
 Think of a collection of things united by theme: Pok&eacute;mon, Old-school
 MC's, Prime Ministers of New Zealand, Magical Beasts and Where to Find Them,
 etc...
 
+======= CODE =======
 Now write in a few entries in your file. Here's one from us (highly-influenced
 by English post-punk music).
 
@@ -47,7 +47,6 @@ We would call this the _content_ of the file. It's the thing we're trying to
 communicate.
 
 ### Content versus Representation
-
 Let's investigate the nature of _content_ more deeply and ask: "What does this
 _content_ represent?" That is, what is the author's intention with this
 content? The author, and most readers, know that the _intention_ of this
@@ -93,14 +92,12 @@ arrangements of text means with a computer &mdash; a thing that has _absolutely
 no possible culture to help it infer our intentions_?
 
 ### Denoting Lists
-
 Try updating your `my_list.txt` file in some way that suggests, a bit more
 clearly that you're working with a list. Discuss it with a friend, if you have
 one handy. Talk about how your _culture_ is helping you see the list-ness or
 book-title-ness.
 
 ### List Representations
-
 Some might have made their content a list by making it look like:
 
 ```text
@@ -190,7 +187,6 @@ Let's augment our list by transforming it an `.html` file where we can add
 _meaning_ of some of the content elements.
 
 ## Plaintext to HTML
-
 1. Create a new file called `my_list.html`
 2. Copy the contents of `my_list.txt` and paste them into `my_list.html`
 3. Update your browser to view `my_list.html`
@@ -202,7 +198,6 @@ file. It doesn't know how to find _meaning_ or how to interpret the _semantic_
 purpose of our `my_list.html` file. Let's help it.
 
 ## Adding HTML
-
 This lab will provide you what to type. Subsequent labs will deeply examine
 details of HTML markup. However, our goal here is to show how slight changes to
 markup can dramatically alter the browser's presentation of content. If you're
@@ -210,7 +205,6 @@ fuzzy on a detail that's fine. Make a note of a question, but don't get scared.
 Nothing's going to break and you might learn something amazing.
 
 ### Denoting List Items
-
 1. Determine what "class" of thing each list item is. Is it a `grocery` or a
    `dairy-item`, a `president`, or `ruminant-quadruped`? We'll call this the
    _class name_.
@@ -242,7 +236,6 @@ hallmark of how browsers behave: if they can't find anything special to do,
 they try to provide a pretty-decent experience.
 
 ### Denoting Ordered Lists
-
 Something that our _culture_ tells us is that "list items belong to a collective."
 Seeing "milk, eggs, cheese" suggests "Grocery List" or "John, Paul, George, and
 Ringo" suggests "Beatles Members." Let's tell browsers that our list items all
@@ -258,7 +251,6 @@ Which displays:
 ![List displayed as ordered list](https://curriculum-content.s3.amazonaws.com/web-development/experiencing-html-lab/ordered_list.png)
 
 ### Wrapping and Indentation
-
 You might have noticed a pattern, HTML is the successive _wrapping_ of
 _content_ in HTML "tags" which constitue the _markup_ of the document.
 
@@ -282,7 +274,6 @@ certainly against all custom of HTML authors** to write this same HTML file as:
 While this certainly _works_, it breaks the standards HTML authors expect.
 
 ### Ordered to Unordered
-
 Let's change our ordered list to be unordered. We might not care that the items
 are in order (songs) but might care very much if the order was important (a
 recipe, say). If `<ol>` means **o**rdered **l**ist, `<ul>` means **u**nordered
@@ -296,7 +287,6 @@ meant when they notice something missing. In this case, most browsers, if they
 see an empty `<li>` outside of a `<ul>` or an `<ol>`, will add a bullet.
 
 ### Add a Description Paragraph
-
 Let's introduce our list by adding some introductory content:
 
 ```html
@@ -334,14 +324,12 @@ only one `description` paragraph. Take a look at your "rendered page" and make
 sure it makes sense.
 
 ### Put a Header on It
-
 Lastly, let's put a "heading" or a "title" on the top of our document. Add a
 title and "wrap" it with an `<h1> .... </h1>` tag. Here's our example again:
 
 `<h1>My Music List</h1>`
 
 ### Ta-Dah!
-
 Admire your finished work!
 
 Here's the full code:
@@ -362,7 +350,6 @@ Here's the full code:
 ![Final Document](https://curriculum-content.s3.amazonaws.com/web-development/experiencing-html-lab/final_header_paragraph_ul.png)
 
 ### Epilogue
-
 This is, essentially, the work of learning to write HTML. You will grow more
 familiar with tags, what they do, and how they display in a browser. You will
 then "mark your content up" so that browsers know how to present your content
